@@ -56,6 +56,7 @@ Application made to convert your Wii Message Board dumps from CDBackup homebrew 
   
 Requires **Python 3.10+** with tkinter
 
+Run via CMD:
 ```
 pip install openpyxl pillow ttkbootstrap tkinterdnd2 rarfile
 python playtime_log_gui.py
@@ -68,6 +69,9 @@ later.
 A **dependency manager** (Tools → Dependencies…) reports what is
 installed and offers 1-click installs for missing packages.
 
+Run via File Explorer:
+With all three python scripts (playtime_log_to_excel.py, ajpg_to_png.py, and playtime_log_gui.py) in the same directory, run/double-click the "playtime_log_gui.py" script.
+
 
 ### Command-line use for spreadsheet conversion (no GUI)
 
@@ -77,10 +81,6 @@ python playtime_log_to_excel.py <dump1> [dump2] -o "Playtime Log Summary.xlsx"
 
 Accepts the same input types (folder path, .zip/.rar, .vff); two inputs are merged
 with deduplication.
-
-## How to quick launch:
-
-With all three python scripts (playtime_log_to_excel.py, ajpg_to_png.py, and playtime_log_gui.py) in the same directory, run/double-click the "playtime_log_gui.py" script.
 
 ## Building the standalone executable on Windows
 
