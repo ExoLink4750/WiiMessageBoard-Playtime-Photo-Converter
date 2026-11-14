@@ -1,20 +1,31 @@
 # WiiMessageBoard-Playtime-Photo-Converter
 Application made to convert your Wii Message Board dumps from CDBackup homebrew into readable spreadsheets and PNGs via an interactive GUI
 
+***AI Disclaimer: Kimi K3 was utilized***
+
+<img width="1405" height="1180" alt="Screenshot 2026-11-14 142912" src="https://github.com/user-attachments/assets/10412e24-68d2-4bdd-8461-b9fbbfab08ad" />
+
 ## What it can do:
 
 ### Read every dump-type from CDBackup homebrew
 
-- Raw **vff dumps** (recommended - contains everything: play-time logs,
-  messages, title IDs and photos)
-- **cdb dumps** (`cdbackup.vff` or a cdb folder tree)
-- Inputs can be a **folder**, a **.zip**, a **.rar** archive, or a bare
-  **.vff** container
-- **Two dumps can be scanned together** (for example from two consoles, or a
+CDBackup Github:
+https://github.com/Naim2000/cdbackup
+
+Inputs can be a **folder**, a **.zip**, a **.rar** archive, or a bare **.vff** container
+
+- Raw **vff dumps** (recommended; vff folder tree) contains everything: play-time logs, messages, title IDs, and photos
+- **cdb dumps** (cdb folder tree) No titles IDs or photos
+- **cdbackup.vff** (.vff container) No titles IDs or photos
+  
+
+**Two dumps can be scanned together** (for example from two consoles, or a
   vff plus a cdb of the same console) - they are merged automatically and any
   logs/messages/photos present in both are counted only once
 
 ### Convert data to a spreadsheet file (.xlsx)
+
+<img width="2880" height="1800" alt="Screenshot 2026-11-14 143112" src="https://github.com/user-attachments/assets/b17085b4-b8fb-4456-a444-67039f047afc" />
 
 - **Combined Totals** sheet plus **one sheet per day** of play-time history
 - **Achievements** (medals, records, pro status, stamps, trophies)
@@ -24,6 +35,8 @@ Application made to convert your Wii Message Board dumps from CDBackup homebrew 
 - Letter stationery (U8 archives) detection
 
 ### Browse everything before you convert
+
+<img width="2880" height="1800" alt="Screenshot 2026-11-14 142730" src="https://github.com/user-attachments/assets/49da2367-860d-4ed8-a404-b321987fba97" />
 
 - **Titles tab**: every game/channel played, total play time and days played,
   sortable by any column
@@ -36,11 +49,13 @@ Application made to convert your Wii Message Board dumps from CDBackup homebrew 
 
 ### Recover attached photos
 
+<img width="2880" height="1800" alt="Screenshot 2026-11-14 142832" src="https://github.com/user-attachments/assets/58c0b76e-f3bc-4afd-be61-5c584c78f9c6" />
+
 - Decodes the Wii's proprietary **aJPG** photo format (a decoder is built in,
   no extra files needed)
 - One-click export of all photos to PNG
 - Photos embedded in the spreadsheet export are not supported - they are saved
-  alongside it or packed into an "Export All" .zip together with the workbook
+  alongside it or packed into an "Export All" .zip together with the spreadsheet
 
 
 ## Main project files
